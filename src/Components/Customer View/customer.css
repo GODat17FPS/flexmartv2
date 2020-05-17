@@ -1,0 +1,21 @@
+.edevice {
+    background-color: orange;
+}
+
+.clothes {
+    background-color:greenyellow;
+}
+
+.furniture {
+    background-color: lightgoldenrodyellow;
+}
+
+.food {
+    background-color:peachpuff;
+}
+
+.card {
+    color: black;
+    height: 100%;
+    cursor: pointer;
+}
