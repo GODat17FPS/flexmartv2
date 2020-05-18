@@ -6,15 +6,15 @@
   font-size: 60px;
 
   color: white;
-  text-shadow: 1px 1px 2px black, 0 0 25px rgb(83, 137, 207),
-    0 0 5px rgb(202, 119, 228);
+  text-shadow: 1px 1px 2px rgb(1, 1, 2), 0 0 25px rgb(113, 255, 208),
+    0 0 5px rgb(119, 228, 210);
 }
-.im {
+/*.im {
   position: absolute;
   top: 0px;
   right: 0px;
   size: 2%;
-}
+}*/
 .welcome-components {
   text-align: center;
   font-size: 30px;
@@ -32,9 +32,27 @@
   transition: 0.3s;
   background-color: #ffff66;
 }
+
+.welcome-page {
+  -webkit-filter: brightness(70%);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
 */
+
+.welcome-page {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: 1s ease;
+}
+
 .welcome-page:hover {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 12px 20px 0 rgba(0, 0, 0, 0.2);
+  transition: 1s ease;
 }
 
 body {
@@ -76,10 +94,10 @@ body {
   box-sizing: border-box;
   left: 50%;
   opacity: 0.8;
-  padding: 10vmin;
+  padding: 5vmin;
   position: fixed;
   text-align: center;
-  top: 50%;
+  top: 45%;
   transform: translate(-50%, -50%);
 }
 
@@ -87,6 +105,12 @@ h1 {
   font-family: monospace;
 }
 
+body {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 @keyframes slide {
   0% {
     transform: translateX(-25%);

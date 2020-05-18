@@ -1,17 +1,22 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./welcomePage.css";
+import bg from "./bg.png";
+import logo from "./logo.jpeg";
 function welcomePage() {
   return (
     <div class="x">
       <div class="bg">
         <div class="bg bg2"></div>
-        <div class="bg bg3"></div>
+        <div class="bg bg3">
+          <img src={logo} alt="logo" />
+          <img src={bg} alt="banner" />
+        </div>
       </div>
 
       <div className="welcome-page">
         <div className="welcome-head">
-          <h3>Welcome to FlexMart</h3>
+          <h3>FLEXMART</h3>
         </div>
         <div className="welcome-components">
           <Link className="welcome-x" to="/SignUp/Customer">
