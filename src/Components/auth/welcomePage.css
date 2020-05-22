@@ -63,9 +63,10 @@ body {
   animation: slide 2s ease-in-out infinite alternate;
   background-image: linear-gradient(
     -60deg,
-    rgb(238, 255, 0) 50%,
-    rgb(255, 217, 0) 50%,
-    rgb(255, 81, 0) 50%
+    rgb(155, 35, 155) 50%,
+    rgb(112, 250, 255) 50%,
+    rgb(255, 81, 0) 50%,
+    rgb(255, 251, 0) 50%
   );
   bottom: 0;
   left: -50%;
@@ -105,12 +106,6 @@ h1 {
   font-family: monospace;
 }
 
-body {
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
 @keyframes slide {
   0% {
     transform: translateX(-25%);

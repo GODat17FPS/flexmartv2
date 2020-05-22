@@ -9,7 +9,6 @@ function welcomePage() {
       <div class="bg">
         <div class="bg bg2"></div>
         <div class="bg bg3">
-          <img src={logo} alt="logo" />
           <img src={bg} alt="banner" />
         </div>
       </div>
@@ -20,12 +19,12 @@ function welcomePage() {
         </div>
         <div className="welcome-components">
           <Link className="welcome-x" to="/SignUp/Customer">
-            <button type="button" className="btn btn-dark">
+            <button type="button" className="btn btn-light">
               Sign Up
             </button>
           </Link>
           <Link className="welcome-x" to="/Login">
-            <button type="button" className="btn btn-dark">
+            <button type="button" className="btn btn-light">
               Login
             </button>
           </Link>
